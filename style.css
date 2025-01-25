@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Josefin Sans", serif;    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    justify-content: space-evenly;
+    border-bottom: solid gainsboro 2px;
+    padding-bottom: 10px;
+}
+.navbar__s1{
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.navbar__s1 img{
+    width: 60px;
+    height: 60px;
+    
+}
+
+.navbar__s2{
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0px; 
+}
+.navbar__s3 p{
+    display: inline-block;
+    align-items: center;
+    gap: 5px;
+}
+.navbar__s4{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius:30px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.categories{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+    font-size: large;    
+}
+.categories p:hover{
+    border-bottom: solid black 2px;
+    padding-bottom: 5px;
+}
+.search{
+    display: flex;
+    padding: 5px;
+    padding-left: 15px;
+    border: solid black 2px;
+    border-radius: 30px;
+    width: 58%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 20%;
+    
+}
+.search input{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 15px;
+}
+.search input:focus{
+    outline: none;
+}
+.search p{
+    background-color: #34E0A1;
+    padding: 15px;
+    margin-right: 5px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* .add__image{
+    display: flex;
+    justify-content:baseline;
+    height: 400px;
+    width: 800px;
+    margin-left: 17%;
+    margin-right: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+} */
+ .top-rated{
+    margin-top: 25px;
+    margin-left: 10%;
+ }
+ .top-rated p{
+    margin-top: 15px;
+    font-size: 18px;
+ }
+
+.destination-cards{
+    display:flex;
+    gap: 10px;
+    margin-top: 15px;
+    justify-content:center;    
+}
+.destination-cards img{
+    border-radius: 20px;
+}
+/* Get inspired */
+.Get-inspired{
+    margin-top: 25px;
+    margin-left: 10%;
+ }
+ .Get-inspired p{
+    margin-top: 15px;
+    font-size: 18px;
+ }
+
+.inspired-cards{
+    display:flex;
+    gap: 15px;
+    margin-top: 15px;
+    justify-content:center;    
+}
+.inspired-cards img{
+    border-radius: 20px;
+    width: 100%;
+    height: 250px;
+}
+.inspired-cards p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.inspired-cards-t1{
+    font-size: 16px;
+}
+.inspired-cards-t2{
+    font-size: 18px;
+}
+
+/* Madras */
+.Madras{
+    margin-top: 25px;
+    margin-left: 10%;
+ }
+ .Madras p{
+    margin-top: 15px;
+    font-size: 18px;
+ }
+
+.Madras-cards{
+    display:flex;
+    gap: 10px;
+    margin-top: 15px;
+    justify-content:center;    
+}
+.Madras-cards img{
+    border-radius: 20px;
+}
+.Madras-cards-desc{
+    align-items: center;
+    width: 270px;
+    height: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+/*More to Explore*/
+.more-bg-colour{
+    margin-top: 15px;
+    background-color: #F2F1EC;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.more{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+ }
+ .more-cards{
+    display:flex;
+    gap: 15px;
+    margin-top: 15px;
+    justify-content:center;    
+}
+.more-cards img{
+    border-radius: 20px;
+    width: 100%;
+    height: 250px;
+}
+.more-cards p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.more-cards-t2{
+    align-items: center;
+    width: 300px;
+    height: 100%;    
+    padding: 5px;
+    font-size: 18px;
+}
+
+/* Dream Your Next Trip */
+.dream{
+    margin-top: 25px;
+    margin-left: 9.7%;
+ }
+ .dream p{
+    margin-top: 15px;
+    font-size: 18px;
+ }
+
+.dream-cards{
+    display:flex;
+    gap: 10px;
+    margin-top: 15px;
+    justify-content:center;    
+}
+.dream-cards img{
+    border-radius: 20px;
+}
+
+/* Top destinations for your next holiday */
+.singapore{
+    margin-top: 50px;
+    margin-left: 9.7%;
+ }
+ .singapore p{
+    margin-top: 15px;
+    font-size: 18px;
+ }
+
+.sin-cards{
+    display:flex;
+    gap: 10px;
+    margin-top: 15px;
+    justify-content:center;    
+}
+.sin-cards img{
+    border-radius: 20px;
+}
+/* Sponsor */
+/* .Sponsor{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+    
+} */
+ .sponsor2 img{    
+    margin-top: 30px;
+ }
+ .sponsor2 img{
+    height: 550px;
+    width: 100%;
+ }
+ /* .footer{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+ }
+.footer1{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5%;
+    padding: 40px;
+    font-size: 14px;
+    line-height: 1.5;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+.footer_head{
+    font-size: 18px;
+}
+.footer2{
+    width: 30%;
+    padding-bottom: 10px;
+}
+.footer2_1 p{
+    font-size: 11px;
+    padding-bottom: 2px;
+    line-height: 1.5;
+}
+.footer2_1_1 p{
+    font-size: 14px;
+    display: inline-block;    
+    width: fit-content;    
+} */
+ .footer{
+    padding: 30px;
+    background-color: #F2F2F2;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+ }
+.footer_one{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_one p{
+    margin: 10px;
+}
+.footer_head{
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer_two{
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+} 
+.Final-footer{
+    padding: 20px;
+}
+.Final-footer a{
+    padding: 10px;
+    font-size: x-large;
+}
