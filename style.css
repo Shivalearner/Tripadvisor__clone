@@ -36,14 +36,35 @@ body{
 }
 .navbar__s2 p{
     background-color: transparent;
-    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 .navbar__s2 p:hover{
     background-color: #F2F2F2;
-    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 30px;
+}
+.navbar__s3{
+    background-color: transparent;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
+}
+.navbar__s3:hover{
+    background-color: #F2F2F2;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
 }
 .navbar__s3 p{
     display: inline-block;
@@ -53,9 +74,24 @@ body{
 .navbar__s4{
     background-color: black;
     color: white;
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius:30px;
     cursor: pointer;
+    border: solid  transparent 2px;
+}
+.navbar__s4:hover{
+    background-color: #F2F2F2;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    border: solid black 2px;
+    border-radius: 30px;
 }
 .header{
     display: flex;
@@ -137,12 +173,32 @@ body{
     display:flex;
     gap: 10px;
     margin-top: 15px;
-    justify-content:center; 
-    position: relative;   
+    justify-content:center;
+     
 }
-/*  */
+
 .destination-cards img{
     border-radius: 20px;
+    position: static;
+    border: solid transparent 3px;
+
+}
+.destination-cards img:hover{
+    border: solid black 3px;
+}
+.img-txt{
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+    font-size: 18px;
+    color: white;
+    width: fit-content;
+    width: 250px;
+    height: 0px;
+    display: flex;
+    align-items: center;
+
+    
 }
 /* Get inspired */
 .Get-inspired{
@@ -200,6 +256,10 @@ body{
 }
 .Madras-cards img{
     border-radius: 20px;
+    border: solid transparent 3px;
+}
+.Madras-cards img:hover{
+    border: solid black 3px;
 }
 .Madras-cards-desc{
     align-items: center;
@@ -269,6 +329,10 @@ body{
 }
 .dream-cards img{
     border-radius: 20px;
+    border: solid transparent 3px;
+}
+.dream-cards img:hover{
+    border: solid black 3px;
 }
 
 /* Top destinations for your next holiday */
@@ -289,6 +353,10 @@ body{
 }
 .sin-cards img{
     border-radius: 20px;
+    border: solid transparent 3px;
+}
+.sin-cards img:hover{
+    border: solid black 3px;
 }
 /* Sponsor */
 /* .Sponsor{
